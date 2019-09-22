@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+	background-color: #CCF;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('../sustitucion.jpg')">
+<table width="100%" border="1">
+  <tr>
+    <td width="27%">&nbsp;</td>
+    <td width="47%"><img src="../logo.jpg" width="600" height="199" /></td>
+    <td width="26%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><center>
+      <h2>Enlaces </h2>
+    </center>
+      <h2><a href="../inicio.html"><img src="../enlaceinicio.jpg" alt="" width="194" height="50" /></a></h2>
+      <p><a href="../biografia.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','../sustitucion.jpg',1)"><img src="../boigrafiaenlace.jpg" width="195" height="50" id="Image14" /></a></p>
+      <h2><a href="amigo.html"><img src="../amigosenlace.jpg" alt="" width="195" height="49" /></a></h2>
+      <h2><a href="familia.html"><img src="../familiaenlace.jpg" alt="" width="195" height="50" /></a></h2>
+      <h2><a href="colegio.html"><img src="../colegioenlace.jpg" alt="" width="195" height="49" /></a></h2>
+      <h2><a href="hobbie.html"><img src="../hobbieenlace.jpg" alt="" width="194" height="48" /></a></h2>
+      <h2><a href="marquesinas.html"><img src="../marquesinaenlace.jpg" alt="" width="195" height="48" /></a></h2>
+      <h2><a href="otro.html"><img src="../otrosenlace.jpg" alt="" width="195" height="50" /></a></h2>
+      <h2><img src="../liberoenlace.jpg" alt="" width="195" height="50" /></h2>
+    <h2><a href="frames/principal.html"><img src="../framesenlace.jpg" alt="" width="194" height="49" /></a></h2></td>
+    <td valign="top" bgcolor="#CCCC66"><div align="center">Tema: Formularios</div>
+<p align="center">&nbsp;</p>
+      <form id="form1" name="form1" method="post" action="">
+        <table width="500" border="0">
+          <tr>
+            <td><label>usuario:</label></td>
+            <td><input type="text" name="usuario" id="usuario" /></td>
+          </tr>
+          <tr>
+            <td><label>paswward:</label></td>
+            <td><input type="password" name="paswward" id="paswward" /></td>
+          </tr>
+          <tr>
+            <td>sexo:</td>
+            <td><label>
+              <input type="radio" name="radio" id="masculino" value="masculino" />
+            masculino
+            <input type="radio" name="radio" id="femenino" value="femenino" />
+            femenino</label></td>
+          </tr>
+          <tr>
+            <td>seleccione su colegio:</td>
+            <td><label>
+              <input type="checkbox" name="salesiano" id="salesiano" />
+            salesiano
+            <input type="checkbox" name="SantaAna" id="SantaAna" />
+            SantaAna
+            <input type="checkbox" name="otro" id="otro" />
+            otro</label></td>
+          </tr>
+          <tr>
+            <td><label>medidas de flacas</label></td>
+            <td><select name="medidas de flacas" id="medidas de flacas">
+              <option>30-40-60</option>
+              <option>30-40-20</option>
+              <option selected="selected">60-30-50</option>
+              <option>tu flaca</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td><label>comentario:</label></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><textarea name="comentario" id="comentario" cols="45" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="reset" name="Borrar" id="Borrar" value="borrar" /></td>
+            <td><input type="submit" name="enviar" id="enviar" value="Enviar" /></td>
+          </tr>
+        </table>
+      </form>
+      <p align="center">&nbsp;</p>    </td>
+    <td><p><img src="../1.jpg" width="201" height="195" /></p>
+    <p><img src="../2.jpg" width="198" height="197" /></p></td>
+  </tr>
+</table>
+</body>
+</html>
